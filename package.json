@@ -1,23 +1,26 @@
 {
-  "name": "prueba1-ifcjs",
-  "version": "1.0.0",
-  "description": "Primera prueba del curso desarrollo web de ifc.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/javierloring/prueba1-ifcjs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/javierloring/prueba1-ifcjs/issues"
-  },
-  "homepage": "https://github.com/javierloring/prueba1-ifcjs#readme",
-  "dependencies": {
-    "web-ifc": "^0.0.25"
-  }
+    "name": "prueba1-ifcjs",
+    "version": "1.0.0",
+    "description": "Primera prueba del curso desarrollo web de ifc.js",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c",
+        "watch": "rollup -c -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/javierloring/prueba1-ifcjs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/javierloring/prueba1-ifcjs/issues"
+    },
+    "homepage": "https://github.com/javierloring/prueba1-ifcjs#readme",
+    "dependencies": {
+        "@rollup/plugin-node-resolve": "^13.0.6",
+        "rollup": "^2.58.0",
+        "web-ifc": "^0.0.25"
+    }
 }
