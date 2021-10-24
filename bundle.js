@@ -36356,4 +36356,4 @@ var IfcAPI = class {
 };
 
 console.log(IfcAPI);
-console.log("hola caracola");
+console.log("hola caracola y otros pulpos del lugar!");
