@@ -73,3 +73,13 @@ input {
 .button:hover {
     background-color: rgb(158, 184, 223);
 }
+
+
+/* creamos estilos para el div de contenido*/
+
+.result-container {
+    /* background-color: red; */
+    margin: 1rem;
+    width: calc(100vw -2rem);
+    height: 30vh;
+}
